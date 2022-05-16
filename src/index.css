@@ -1,13 +1,71 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.notelist {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.note {
+  background-color: rgb(250, 250, 67);
+  border-radius: 10px;
+  width: 250px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.notefooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.App-header {
+  font-weight: 700;
+  font-size: 36px;
+  padding: 20px 0;
+}
+
+.App {
+  
+  margin: auto;
+  width: 50%;
+}
+
+.deleteIcon {
+  cursor: pointer;
+}
+
+.form {
+  background-color: rgb(250, 250, 67);
+  border-radius: 10px;
+  width: 250px;
+  min-height: 200px;
+  padding: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+}
+
+form input[type="text"] {
+  height: 200px !important;
+  width: 97%;  
 }
