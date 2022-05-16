@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -65,7 +69,36 @@ form {
   align-items:flex-end;
 }
 
-form input[type="text"] {
-  height: 200px !important;
-  width: 97%;  
+textarea {
+  height: 140px !important;  
+  width: 97%;
+  background-color: rgb(250, 250, 67);
+  border: 0;
+  padding: 0;
+  resize: none;
+}
+
+textarea {
+  outline: none;
+}
+
+span {
+  word-wrap: break-word;
+  /* overflow: auto; */
+  text-overflow: clip;
+}
+
+input[type="submit"] {
+  border: 0;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: rgb(7, 177, 64);
+  color: white;
+  font-weight: 600;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  box-shadow: 2px 3px grey;
+  transform: translateY(-3px) translateX(-2px);
 }
