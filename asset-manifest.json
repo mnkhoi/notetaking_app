@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/notetaking_app/static/css/main.4d58fac9.css",
+    "main.js": "/notetaking_app/static/js/main.fe80304b.js",
+    "static/js/787.2bfe6d9e.chunk.js": "/notetaking_app/static/js/787.2bfe6d9e.chunk.js",
+    "index.html": "/notetaking_app/index.html",
+    "main.4d58fac9.css.map": "/notetaking_app/static/css/main.4d58fac9.css.map",
+    "main.fe80304b.js.map": "/notetaking_app/static/js/main.fe80304b.js.map",
+    "787.2bfe6d9e.chunk.js.map": "/notetaking_app/static/js/787.2bfe6d9e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d58fac9.css",
+    "static/js/main.fe80304b.js"
+  ]
+}
